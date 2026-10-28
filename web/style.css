@@ -1,0 +1,95 @@
+body {
+    background-color: #f1f8e9;
+    font-family: 'Segoe UI', sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+h2 {
+    color: #2952a3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.error { color: red; text-align: center; }
+.login-box {
+    width: 400px;
+    background: white;
+    margin: 100px auto;
+    padding: 40px;
+    border-color: #2952a3;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #3949ab;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #aed581;
+    color: #333;
+}
+button {
+    width: 32%;
+    background-color: #5c6bc0;
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3949ab;
+}
+
+.disabled {
+    background-color: grey;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+#login {
+    background-color: #3eb85f;
+    position: relative;
+    left: 33%;
+}
+#login:hover {
+    background-color: #21944b;
+}
+#logout {
+    background-color: #c23e3e;
+}
+#logout:hover {
+    background-color: #942f2f;
+}
